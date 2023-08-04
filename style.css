@@ -1,0 +1,93 @@
+body {
+    background: url(./screenshot.png);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.top-banner .header {
+    text-align: center;
+    font-size: 3rem;
+    color: #fff;
+}
+
+.search-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.search-div input {
+    width: 400px;
+    height: 50px;
+    font-size: 30px;
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+}
+.search-div input::placeholder {
+    color: #fff;
+}
+
+.search-div button {
+    color: #fff;
+    background-color: red;
+    border: none;
+    border-radius: 3px;
+    margin-left: 50px;
+    width: 150px;
+    height: 40px;
+    font-size: 1.5rem;
+}
+
+.container .msg {
+    display: block;
+    margin-left: 28%;
+    color:#ffffffb2;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+.cities {
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.cities li {
+    list-style: none;
+    background-color: #fff;
+    width: 200px;
+    height: 220px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 5px 5px 0 rgb(207, 207, 207);
+}
+
+.cities li h2 span:last-child {
+    font-size: 12px;
+    margin-left: 5px;
+    background-color: orange;
+    padding: 5px;
+    border-radius: 10px;
+}
+.cities li .city-temp {
+    font-size: 50px;
+}
+.cities .weather-discription {
+    margin-top: 30px;
+    font-size: 15px;
+    color: gray;
+}
+
+.city-icon {
+    margin-top: 20px;
+}
+
