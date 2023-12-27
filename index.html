@@ -13,6 +13,7 @@
         <div class="container">
             <h1 class="header">Weather App</h1>
             <form class="search-div">
+                <img src="./imgs/location.png" alt="location.png" class="location-img">
                 <input type="text" placeholder="search for a city">
                 <button type="submit">submit</button>
             </form>
@@ -20,15 +21,15 @@
         </div>
 
     </section>
-    <section class="ajax-section">
-
-        <div class="container">
-            <ul class="cities">
-            </ul>
-        </div>
+    <span id="loader"></span>
+    <section id="overall-Weather-section">
+            
+    </section>
+    <section id="forecast-weather-section">
 
     </section>
 
-    <script src="./main.js"></script>
+
+    <script type="module" src="./main.js"></script>
 </body>
 </html>
